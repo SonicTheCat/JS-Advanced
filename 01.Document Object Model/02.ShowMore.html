@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>showMore</title>
+</head>
+<body>
+Welcome to the "Show More Text Example".
+<a href="#" id="more" onclick= "showText()">Read more …</a>
+<span id="text" style= "display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat augue non dictum bibendum. Donec luctus gravida ultrices. Ut nec augue est. Nulla facilisi. Nulla scelerisque, neque at tincidunt convallis, lectus libero malesuada urna, vehicula lobortis magna ipsum eu magna. Curabitur quis fermentum sem. Aenean commodo diam at ex consectetur, sit amet dignissim sapien dictum. Vivamus gravida, nisi ut rutrum blandit, leo velit porta purus, in tincidunt metus sem quis eros. In varius augue efficitur, condimentum odio vitae, congue turpis. Nunc gravida sapien vel diam malesuada, non pulvinar ligula sodales. Aenean condimentum ligula ac tellus eleifend, sit amet posuere ligula rhoncus. Donec eleifend lacus vitae venenatis ornare. Maecenas bibendum orci viverra nibh semper, ut hendrerit lorem bibendum. Quisque suscipit feugiat porttitor.
+Phasellus ac quam et justo accumsan interdum. Phasellus tristique convallis sem lobortis eleifend. Curabitur pulvinar, nibh sit amet luctus facilisis, ligula urna auctor quam, in iaculis metus massa in metus. Sed molestie eget odio quis porttitor. Aliquam in mauris sit amet libero pulvinar porta vel nec metus. Nulla feugiat mi ante, in dignissim ante rhoncus ut. Ut quis mauris libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam fringilla molestie neque, dignissim hendrerit urna faucibus id. Aliquam erat volutpat. In finibus ultrices sem, et rhoncus purus ultricies fermentum. Morbi at quam ac dolor pellentesque pharetra in in lorem. Fusce sit amet accumsan metus. Suspendisse dapibus ex in euismod tincidunt. Pellentesque eget arcu consequat, auctor nibh mollis, euismod nunc.</span>
+<script>
+    function showText() {
+      document.getElementById("text").style.display = 'inline';
+      document.getElementById("more").style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
