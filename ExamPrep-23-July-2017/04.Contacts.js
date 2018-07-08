@@ -14,13 +14,15 @@ class Contact {
 
     set online(bool) {
         this._online = bool;
+        this.update();
+    }
 
-        if (bool) {
-           this.element.find(".title").addClass("online");
+    update() {
+        if(this._online){
+            this.element.find('.title').addClass('online')
         } else {
-            this.element.find(".title").removeClass("online");
+            this.element.find('.title').removeClass('online')
         }
-
     }
 
     render(id){
